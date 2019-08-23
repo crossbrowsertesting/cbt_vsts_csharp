@@ -74,12 +74,11 @@ namespace BasicTest
             //Start by setting the capabilities
             var caps = new DesiredCapabilities();
 
-            caps.SetCapability("name", "Basic Test Publix");
+            caps.SetCapability("name", "Basic Test");
             caps.SetCapability("build", "1.0");
 
 
             caps.SetCapability("browserName", "Chrome");
-            caps.SetCapability("version", "66");
             caps.SetCapability("platform", "Windows 10");
             caps.SetCapability("screenResolution", "1366x768");
 
